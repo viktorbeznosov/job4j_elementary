@@ -40,7 +40,7 @@ public class PointTest {
     }
 
     @Test
-    public void when12to34then0() {
+    public void when12to34then2dot828() {
         double expected = 2.828;
         int x1 = 1;
         int y1 = 2;
