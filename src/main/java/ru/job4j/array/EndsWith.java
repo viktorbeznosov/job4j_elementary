@@ -5,8 +5,7 @@ public class EndsWith {
     public static boolean endsWith(char[] word, char[] post) {
         boolean result = true;
         for (int i = 0; i < post.length; i++) {
-            int currentWordIndex = word.length - post.length + i;
-            if (post[i] != word[currentWordIndex]) {
+            if (post[i] != word[word.length - post.length + i]) {
                 result = false;
                 break;
             }
